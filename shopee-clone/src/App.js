@@ -1,9 +1,16 @@
 import './App.css';
+import Header from './Header';
+import Info from './Info';
+import Content from './Content';
 
 function App() {
   return (
     <div className="App">
-      <h2>INI ADALAH SHOPEE CLONE</h2>
+      
+      <Header/>
+      <Info/>
+      <Content/>
+      
     </div>
   );
 }
