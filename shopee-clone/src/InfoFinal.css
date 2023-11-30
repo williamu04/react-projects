@@ -1,0 +1,29 @@
+.info_final {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.final_stet {
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.final_stet > p0 {
+    font-size: 12px;
+    -webkit-text-fill-color: darkgrey;
+}
+
+.final_stet > p0 > span {
+    font-size: 15px;
+    font-weight: 700;
+    -webkit-text-fill-color: #919191;
+}
+
+.final_stet > hr {
+    margin-top: 50px;
+    border: 1px solid #f2f2f2;
+}

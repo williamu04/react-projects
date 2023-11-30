@@ -1,0 +1,45 @@
+.flashsale {
+    margin: 20px 0px;
+    background-color: white;
+    max-width: 1200px;
+    height: 310px;
+}
+
+.flashsale > h2 {
+    padding: 10px 20px;
+}
+
+.flashsale_items {
+    padding-top: 5px;
+    display: flex;
+}
+
+.flashsale_items_card {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flashsale_items_card > img {
+    width: 170px;
+    height: 170px;
+}
+
+.flashsale_items_card > p1 {
+    padding-top: 15px;
+    text-align: center;
+    -webkit-text-fill-color: #ed4d30;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.flashsale_items_card > p2 {
+    text-align: center;
+    margin-top: 7px;
+    border-radius: 100px;
+    background-color: #ed4d30;
+    -webkit-text-fill-color: white;
+    padding: 1px 0px;
+    font-size: 12px;
+    font-weight: 700;
+}

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import CategoriesType from './CategoriesType';
+import './Categories.css';
 
 function Categories() {
   return (
     <div className='categories'>
-        <h2>Ini bagian Categories</h2>
+      <p>CATEGORIES</p>
+      <CategoriesType/>
     </div>
   )
 }

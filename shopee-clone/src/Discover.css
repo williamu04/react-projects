@@ -1,0 +1,45 @@
+.discovery {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.discovery > hr {
+    border: 2px solid #ed4d30;
+}
+
+.discovery_header {
+    background-color: white;
+    width: 1200px;
+    text-align: center;
+    height: 41px;
+    padding-top: 15px;
+    /* position: -webkit-sticky; */
+    top: 150;
+    position: sticky;
+    z-index: 99;
+}
+
+.discovery_header > p7 {
+    font-size: 17px;
+    -webkit-text-fill-color: #ed4d30;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+
+.discovery > p2 {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    width: 150px;
+    height: 35px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}

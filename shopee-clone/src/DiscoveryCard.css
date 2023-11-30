@@ -1,0 +1,55 @@
+.discovery_card {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin-top: 5px;
+}
+
+.discovery_card_main {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 1200px;
+}
+
+.discovery_card_item {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 5px 0px;
+    height: 290px;
+    width: 190px;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+
+}
+
+.discovery_card_item > img {
+    height: 190px;
+    width: 190px;
+}
+
+.discovery_card_item > p0 {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.discovery_card_item_num{
+    margin-top: 45px;
+}
+
+.discovery_card_item_num > p6 {
+    -webkit-text-fill-color: #ed4d30;
+    padding-left: 10px;
+}
+
+.discovery_card_item_num > p6 > span {
+    font-size: 12px;
+}
+
+.discovery_card_item_num > p1 {
+    font-size: 12px;
+    -webkit-text-fill-color: darkgrey;
+    margin-left: 35px
+}

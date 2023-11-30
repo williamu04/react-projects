@@ -1,0 +1,11 @@
+.categories {
+    margin: auto;
+    max-width: 1200px;
+    background-color: white;
+    align-items: center;
+}
+
+.categories > p {
+    padding: 18px 15px;
+    color: gray;
+}

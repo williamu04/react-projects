@@ -1,0 +1,29 @@
+.coloumn {
+    display: flex;
+    padding: 0px 10px;
+    max-width: 1200px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+}
+
+.coloumn_navi {
+    width: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    /* border: 1px solid black; */
+}
+
+.kotak {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.coloumn_navi > p {
+    padding-top: 5px;
+    font-size: 12px;
+    align-items: center;
+}

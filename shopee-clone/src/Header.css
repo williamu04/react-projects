@@ -1,8 +1,112 @@
 .header {
+    padding: 5px;
+    height: 110px;
+    position: fixed;
+    background-color: #ed4d30;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header_main {
     display: flex;
+    padding: 0px 5px;    
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: auto;
+    max-width: 1200px;
+    min-width: 480px;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.header_search {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
-    border: 1px solid black;
-    position: sticky;
+}
+
+.header_search_bar {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    /* height: 40px; */
+    background-color: white;
+    flex: 1;
+}
+
+.header_search_bar > input {
+    flex: 1;
+    border: none;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.header_search_icon {
+    background-color: #ed4d30;
+    margin-right: 3px;
+    padding: 6px 18px;
+}
+
+.header_logo {
+    width: 130px;
+    /* border: 1px solid black; */
+    padding-right: 5%;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: auto;
+    max-width: 1200px;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.header_info_kiri {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_info_icon {
+    margin-left: 5px;
+    font-size: 15px !important;
+}
+
+.dist {
+    padding: 0 10px;
+}
+
+.header_info_kanan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_info_notif {
+    display: flex;
+}
+
+.header_info_help {
+    display: flex;
+}
+
+.header_info_bahasa {
+    display: flex;
+}
+
+.header_info_user {
+    display: flex;
+}
+
+.header_info_user > Avatar {
+    height: 10px;
+}
+
+.header_troli {
+    padding: 0% 5%;
+    /* font-size: larger !important; */
 }

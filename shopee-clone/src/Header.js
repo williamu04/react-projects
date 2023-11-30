@@ -1,10 +1,78 @@
 import React from 'react';
 import './Header.css';
+import logo from './blonjo.svg';
+import { Avatar } from '@mui/material';
+import { CampaignRounded, FacebookRounded, Instagram, LanguageOutlined, NotificationsOutlined, QuestionMark, SearchSharp, ShoppingCartOutlined } from '@mui/icons-material';
 
 function Header () {
   return (
     <div className='header'>
-        <h2>Ini bagian header</h2>
+      <div className='header_info'>
+
+        <div className='header_info_kiri'>
+          <p>Go to Seller Center</p>
+          <span className='dist'> | </span>
+          <p>Download</p>
+          <span className='dist'> | </span>
+          <p>Follow us on</p>
+          <div className='header_info_icon'>
+            <FacebookRounded/>
+            <Instagram/>
+            <CampaignRounded/>
+          </div>
+        </div>
+
+        <div className='header_info_kanan'>
+
+          <div className='header_info_notif'>
+            <div className='header_info_icon'>
+              <NotificationsOutlined/>
+            </div>
+            <p>Notifications</p>
+          </div>
+
+          <div className='header_info_help'>
+            <div className='header_info_icon'>
+              <QuestionMark/>
+            </div>
+            <p>Help</p>
+          </div>
+
+          <div className='header_info_bahasa'>
+            <div className='header_info_icon'>
+              <LanguageOutlined/>
+            </div>
+            <p>English</p>
+          </div>
+          <div className='header_info_user'>
+            <Avatar
+              alt='rtsd'/>
+            <p>RTSD_Store</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div className='header_main'>
+        
+        <div className='header_logo'>
+          <img src={logo} alt='blonjo'/>
+        </div>
+
+          <div className='header_search'>
+            <div className='header_search_bar'>
+              <input
+              placeholder='BESOK: Semua Produk Saya yang Bayar!'
+              type='text'/>
+              <SearchSharp className='header_search_icon'/>
+            </div>
+            
+            <div className='header_troli'>
+              <ShoppingCartOutlined className='header_troli_icon'/>
+            </div>
+          </div>
+      
+      </div>
     </div>
   )
 }

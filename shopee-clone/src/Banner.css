@@ -1,0 +1,18 @@
+.banner {
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    background-color: white;
+}
+
+.banner_besar {
+    justify-content: center;
+    height: 105px;
+}
+
+.banner_besar > img {
+    height: 105px;
+    width: 1200px;
+    /* padding: 0px 0px; */
+    /* border-radius: 10px; */
+}

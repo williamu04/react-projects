@@ -1,0 +1,33 @@
+.info_utama {
+    height: 320px;
+    /* width: 100%; */
+    background-color: white;
+    /* width: max-content; */
+    padding: 30px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.info_gambar {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.info_gambar_besar > img {
+    /* width: 800px; */
+    height: 235px;
+    margin-right: 5px;
+    /* border-radius: 10px; */
+    /* border: 1px solid black; */
+}
+
+.info_gambar_kecil > img {
+    /* width: 395px; */
+    height: 115px;
+    margin-left: 0px;
+    /* border-radius: 5px; */
+    /* border: 1px solid black; */
+}

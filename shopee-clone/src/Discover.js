@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import DiscoveryCard from './DiscoveryCard';
+import './Discover.css';
 
 function Discover() {
   return (
     <div className='discovery'>
-        <h2>Ini bagian Discovery</h2>
+      <div className='discovery_header'>
+        <p7>PENEMUAN HARIAN</p7>
+      </div>
+      <hr/>
+      <DiscoveryCard/>
+      <p2>Lebih Banyak Euy</p2>
     </div>
   )
 }
