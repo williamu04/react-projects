@@ -11,7 +11,7 @@
 
 .header_main {
     display: flex;
-    padding: 0px 5px;    
+    padding: 20px 5px;    
     align-items: center;
     /* justify-content: space-between; */
     margin: auto;
@@ -74,7 +74,7 @@
 
 .header_info_icon {
     margin-left: 5px;
-    font-size: 15px !important;
+    display: flex;
 }
 
 .dist {
@@ -109,4 +109,12 @@
 .header_troli {
     padding: 0% 5%;
     /* font-size: larger !important; */
+}
+
+.dumcon {
+    margin: 2px 4px 3px 4px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+
 }

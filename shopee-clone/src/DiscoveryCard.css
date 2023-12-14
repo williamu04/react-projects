@@ -4,6 +4,8 @@
     /* border: 1px solid black; */
     align-items: center;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .discovery_card_main {
@@ -22,7 +24,12 @@
     width: 190px;
     border: 1px solid #e1e1e1;
     background-color: white;
+    transition: all 0.3s ease;
+}
 
+.discovery_card_item:hover{
+    border: 1px solid #ed4d30;
+    transform: translateY(-1px);
 }
 
 .discovery_card_item > img {

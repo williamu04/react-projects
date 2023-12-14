@@ -6,20 +6,16 @@
     margin-top: 30px;
 }
 
-.discovery > hr {
-    border: 2px solid #ed4d30;
-}
-
 .discovery_header {
     background-color: white;
     width: 1200px;
     text-align: center;
     height: 41px;
     padding-top: 15px;
-    /* position: -webkit-sticky; */
-    top: 150;
+    top: 0;
     position: sticky;
-    z-index: 99;
+    z-index: 90;
+    border-bottom: 4px solid #ed4d30;
 }
 
 .discovery_header > p7 {

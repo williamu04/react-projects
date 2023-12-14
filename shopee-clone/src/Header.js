@@ -1,8 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from './blonjo.svg';
-import { Avatar } from '@mui/material';
-import { CampaignRounded, FacebookRounded, Instagram, LanguageOutlined, NotificationsOutlined, QuestionMark, SearchSharp, ShoppingCartOutlined } from '@mui/icons-material';
+import { SearchSharp, ShoppingCartOutlined } from '@mui/icons-material';
 
 function Header () {
   return (
@@ -16,9 +15,9 @@ function Header () {
           <span className='dist'> | </span>
           <p>Follow us on</p>
           <div className='header_info_icon'>
-            <FacebookRounded/>
-            <Instagram/>
-            <CampaignRounded/>
+            <div className='dumcon'></div>
+            <div className='dumcon'></div>
+            <div className='dumcon'></div>
           </div>
         </div>
 
@@ -26,27 +25,29 @@ function Header () {
 
           <div className='header_info_notif'>
             <div className='header_info_icon'>
-              <NotificationsOutlined/>
+              <div className='dumcon'></div>
             </div>
             <p>Notifications</p>
           </div>
 
           <div className='header_info_help'>
             <div className='header_info_icon'>
-              <QuestionMark/>
+              <div className='dumcon'></div>
             </div>
             <p>Help</p>
           </div>
 
           <div className='header_info_bahasa'>
             <div className='header_info_icon'>
-              <LanguageOutlined/>
+              <div className='dumcon'></div>
             </div>
             <p>English</p>
+            <div className='header_info_icon'>
+              <div className='dumcon'></div>
+            </div>
           </div>
           <div className='header_info_user'>
-            <Avatar
-              alt='rtsd'/>
+            <div className='dumcon'></div>
             <p>RTSD_Store</p>
           </div>
 
